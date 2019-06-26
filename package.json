@@ -19,6 +19,7 @@
     "url": "https://github.com/ysonggit/react-photo-gallery/issues"
   },
   "dependencies": {
+    "babel-loader": "^8.0.6",
     "gh-pages": "^2.0.1",
     "prop-types": "~15.7.2",
     "resize-observer-polyfill": "^1.5.0"
