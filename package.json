@@ -62,7 +62,7 @@
     "react-dom": "^16.8.0"
   },
   "scripts": {
-    "build": "react-scripts build",
+    "build": "nps build",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "build:docs": "NODE_ENV=production nps build:docs",
