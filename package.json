@@ -21,7 +21,6 @@
   "dependencies": {
     "gh-pages": "^2.0.1",
     "prop-types": "~15.7.2",
-    "react-scripts": "^3.0.1",
     "resize-observer-polyfill": "^1.5.0"
   },
   "devDependencies": {
@@ -30,9 +29,6 @@
     "@babel/plugin-proposal-class-properties": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
-    "babel-eslint": "^9.0.0",
-    "babel-jest": "^24.7.1",
-    "babel-loader": "^8.0.0",
     "coveralls": "^3.0.3",
     "cross-env": "^5.0.5",
     "enzyme": "^3.8.0",
@@ -64,9 +60,9 @@
     "react-dom": "^16.8.0"
   },
   "scripts": {
-    "build": "nps build",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
     "build:docs": "NODE_ENV=production nps build:docs",
     "start": "webpack-dev-server --progress",
     "lint": "eslint -c ./.eslintrc.js ./src",
