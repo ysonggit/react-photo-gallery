@@ -9,9 +9,6 @@
     "type": "git",
     "url": "https://github.com/ysonggit/react-photo-gallery.git"
   },
-  "bugs": {
-    "url": "https://github.com/ysonggit/react-photo-gallery/issues"
-  },
   "dependencies": {
     "babel-loader": "^8.0.6",
     "gh-pages": "^2.0.1",
