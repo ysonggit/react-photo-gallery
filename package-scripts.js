@@ -14,10 +14,5 @@ module.exports = {
 			),
 			rollup: 'rollup --config',
 		},
-    'build:docs': {
-			default: series(
-				'gitbook build'
-			),
-		},
 	},
 };

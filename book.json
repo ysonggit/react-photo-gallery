@@ -1,7 +1,7 @@
 {
   "gitbook": ">=3.2.2",
   "title": "React Image Gallery",
-  "root": "./docs",
+  "root": "./examples/src/",
   "plugins": [ "theme-api"],
   "pluginsConfig": {
     "theme-api": {
@@ -21,4 +21,3 @@
     }
   }
 }
-

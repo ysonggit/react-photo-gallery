@@ -2,12 +2,6 @@
   "name": "react-photo-gallery",
   "version": "7.0.2",
   "description": "Responsive Justified React Image Gallery Component",
-  "main": "dist/react-photo-gallery.umd.js",
-  "module": "dist/react-photo-gallery.esm.js",
-  "files": [
-    "/dist",
-    "index.d.ts"
-  ],
   "author": "Sandra Gonzales",
   "license": "MIT",
   "homepage": "https://ysonggit.github.io/react-photo-gallery",
@@ -64,7 +58,6 @@
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d dist",
     "build": "nps build",
-    "build:docs": "NODE_ENV=production nps build:docs",
     "start": "webpack-dev-server --progress",
     "lint": "eslint -c ./.eslintrc.js ./src",
     "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check",
