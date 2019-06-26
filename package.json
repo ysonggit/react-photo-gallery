@@ -61,7 +61,7 @@
   },
   "scripts": {
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "nps build",
     "build:docs": "NODE_ENV=production nps build:docs",
     "start": "webpack-dev-server --progress",
