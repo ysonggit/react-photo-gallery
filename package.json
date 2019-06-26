@@ -62,7 +62,9 @@
     "react-dom": "^16.8.0"
   },
   "scripts": {
-    "build": "nps build",
+    "build": "react-scripts build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "build:docs": "NODE_ENV=production nps build:docs",
     "start": "webpack-dev-server --progress",
     "lint": "eslint -c ./.eslintrc.js ./src",
